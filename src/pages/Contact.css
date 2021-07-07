@@ -1,0 +1,97 @@
+.contactme {
+    margin-left: 50%;
+    margin-top: 400px;
+    margin-bottom: 100px;
+    }
+.letsTalk h1 {
+     font-size: 60px;
+     font-weight: 700;
+    }
+.letsTalk h2 {
+     font-size: 30px;
+     font-weight: 500;
+     color: rgb(9, 207, 221);
+    }
+ .contactForm button {
+     font-size: 16px;
+     font-weight: 600;
+     color: rgb(9, 207, 221);
+     padding: 10px 20px;
+     background-color: white;
+     border: 2px solid rgb(9, 207, 221);
+     border-radius: 30px;
+     margin: 20px 5px;
+    }
+ .aboutMe h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    }
+
+.aboutMe h2 {
+        font-size: 18px;
+        color: rgb(9, 207, 221);
+        font-weight: 700;
+        margin: 0;
+    }
+ .aboutMe h4 {
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgb(9, 207, 221);
+    font-weight: 600;
+    }
+.aboutMe h4 span {
+       font-size: 18px;
+       line-height: 1.5;
+       color: black;
+       font-weight: 600;
+    }
+.contactForm {
+       padding: 20px;
+       border-radius: 20px;
+    }
+.aboutInfo{
+        border: 2px solid rgb(9, 207, 221);
+        padding: 40px;
+        border-radius: 30px;
+    }
+.contactForm input {
+        border: 2px solid rgb(9, 207, 221);
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 30px;
+    }
+.contactForm label {
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 18px;
+        color: black;
+        font-weight: 600;
+    }
+.socialMedia {
+        text-align: center;
+        margin: 50px 0;
+    }
+.socialMedia img {
+        margin: 0 15px;
+        border: 2px solid rgb(9, 207, 221);
+        padding: 20px;
+        border-radius: 50%;
+    }
+.socialMedia button {
+     
+        border-color: white;
+        background-color: white;
+        border: none;
+    }
+.socialMedia button:hover {
+        border-color: white;
+        background-color: rgb(167, 244, 250);
+        border-radius: 50%;
+    }
+.aboutAge {
+    margin:30px 0;
+}
+.messageRow {
+    margin: 50px 0;
+}

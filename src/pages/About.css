@@ -1,0 +1,33 @@
+.aboutSection {
+    overflow: hidden;
+    padding-right: 10%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-left: 50%;
+    margin-top: 400px;
+    margin-bottom: 400px;
+     }
+     .aboutSection h4 {
+     font-size: 18px;
+     line-height: 1.7;
+     color: rgb(9, 207, 221);
+     font-weight: 600;
+     }
+     .aboutSection h1 {
+        font-size: 50px;
+        line-height: 1.7;
+        font-weight: 700;
+        }
+     .aboutSection h4 span {
+        font-size: 18px;
+        line-height: 1.5;
+        color: black;
+        font-weight: 600;
+        }
+        .age {
+            display: inline-flex;
+            justify-content: space-between;
+        }
+        .residence{
+            margin-right: 70px;
+        }

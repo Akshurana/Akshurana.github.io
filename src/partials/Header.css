@@ -1,0 +1,36 @@
+.homeNav {
+background-color: white;
+margin-right: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    display: inline-flex;
+  
+}
+.navLink{
+    color: rgb(9, 207, 221);
+}
+
+.header {
+    padding: 0 0 0 20px;
+    position: fixed;
+    left: 50px;
+    right: 50px;
+    top: 40px;
+    height: 80px;
+    border-radius: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 30px rgb(0 0 0 / 15%);
+}
+.logo{
+  display: inline-flex;
+  align-items: center;
+  
+}
+.logo img{
+width: 90px;
+margin-bottom: 20PX;
+}
