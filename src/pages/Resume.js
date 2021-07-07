@@ -12,15 +12,15 @@ function Resume() {
         <h2>Studied at</h2>
         <div className="codingSkills">
             <Row>
-                <Col>
+                <Col className="review">
                 <h3>Web Designing Course</h3>
                 <h4>Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</h4>
                 </Col>
-                <Col>
+                <Col className="review">
                 <h3>Programming Course</h3>
                 <h4>Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</h4>
                 </Col>
-                <Col>
+                <Col className="review">
                 <h3>Art Course</h3>
                 <h4>Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</h4>
                 </Col>
@@ -34,19 +34,19 @@ function Resume() {
         <h2>Developing on</h2>
         <div className="codingSkills">
             <Row>
-                <Col>
+                <Col className="review">
                 <h3>JavaScript</h3>
                 <h4>Etiam sit amet orci eget eros faucibus tincidunt.</h4>
                 <div color="danger" className="text-center">75%</div>
       <Progress value={75} />
       </Col>
-                <Col>
+                <Col className="review">
                 <h3>HTML/CSS</h3>
                 <h4>Etiam sit amet orci eget eros faucibus tincidunt.</h4>
                 <div color="danger" className="text-center">75%</div>
       <Progress value={75} />
                 </Col>
-                <Col>
+                <Col className="review">
                 <h3>WordPress</h3>
                 <h4>Etiam sit amet orci eget eros faucibus tincidunt.</h4>
                 <div color="danger" className="text-center">75%</div>
@@ -63,12 +63,12 @@ function Resume() {
         <h2>What Customer Says</h2>
         <div className="codingSkills">
             <Row>
-                <Col>
+                <Col className="review">
                 <img src="images\53-512.png"/>
                 <h3>Joseph Mackey</h3>
                 <h4>Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</h4>
                 </Col>
-                <Col>
+                <Col className="review">
                 <img src="images\53-512.png"/>
                 <h3>Laura Owens</h3>
                 <h4>Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</h4>
