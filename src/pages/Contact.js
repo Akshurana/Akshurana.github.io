@@ -7,7 +7,7 @@ import './Contact.css';
 function Contact() {
     return (
         <>
-        <div className="contactme">
+        <div className="contactme" id="contact">
             <div className="letsTalk">
                 <h1>Contact</h1>
                 <h2>Let's Talk</h2>
@@ -17,7 +17,6 @@ function Contact() {
          <Col xs="6">
             <div className="contactForm">
             <Form>
-
             <FormGroup row>
         <Label for="contactEmail" sm={4}>Full Name :</Label>
         <Col sm={8}>
@@ -68,9 +67,9 @@ function Contact() {
             </Row>
             </div>
             <div className="socialMedia">
-            <Button><img src="images\facebook.png"/></Button>
-            <Button><img src="images\insta.png"/></Button>
-            <Button><img src="images\twitter.png"/></Button>
+            <Button><a href="https://www.facebook.com/akshu.rajput.395"><img src="images\facebook.png"/></a></Button>
+            <Button><a href="https://www.instagram.com/akshu.rana_/"><img src="images\insta.png"/></a></Button>
+            <Button><a href="https://twitter.com/?lang=en"><img src="images\twitter.png"/></a></Button>
             </div>
         </div>
         </>

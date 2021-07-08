@@ -9,6 +9,7 @@
     }
 .resume {
         margin-left: 50%;
+        padding-top: 50px;
         
         }
 .education {
@@ -38,3 +39,4 @@
    .review:hover{
     box-shadow: 0 0 30px rgb(9 207 221 / 50%);
    }
+  

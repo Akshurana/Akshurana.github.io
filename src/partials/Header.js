@@ -26,7 +26,12 @@ function Header() {
 
         <div className="portfolio">
         <div className="heroImage" style={{'background' : `url(images/myimage.jpg)`}}>
-            
+      
+
+<div className="overlay">
+    <div className="text">WELCOME</div>
+  </div>
+ 
         
             <Container className="themed-container" fluid={true}>
                 <div className="header">
@@ -35,18 +40,18 @@ function Header() {
                 </div>
                 <div>
                   <Navbar className="homeNav"  expand="md">
-                    <NavbarBrand href="/" className="navLink">HOME</NavbarBrand>
+                    <NavbarBrand href="#heroSection" className="navLink">HOME</NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                       <Nav className="mr-auto" navbar>
                         <NavItem>
-                          <NavLink href="/" className="navLink">ABOUT ME</NavLink>
+                          <NavLink href="#about" className="navLink">ABOUT ME</NavLink>
                         </NavItem>
                         <NavItem>
-                          <NavLink href="/" className="navLink">RESUME</NavLink>
+                          <NavLink href="#resume" className="navLink">RESUME</NavLink>
                         </NavItem>
                         <NavItem>
-                          <NavLink href="/" className="navLink">CONTACT</NavLink>
+                          <NavLink href="#contact" className="navLink">CONTACT</NavLink>
                         </NavItem>
                       </Nav>
                     

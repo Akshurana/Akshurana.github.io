@@ -5,13 +5,13 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <>
-        <div className="home">
+        <div className="home" id="heroSection">
     
        
         <div className="homeText">
             <h1>Akshu Rana</h1>
             <p>Hello! I am a web developer. </p>
-            <Button>CONTACT ME</Button>
+            <Button><a href="#contact">CONTACT ME</a></Button>
         </div>
   
     </div>

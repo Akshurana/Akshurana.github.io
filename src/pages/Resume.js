@@ -1,19 +1,24 @@
-import React from 'react';
+import React from "react";
+
 import { Container, Row, Col } from 'reactstrap';
 import { Progress } from 'reactstrap';
 import './Resume.css';
 
+
 function Resume() {
     return (
         <>
-        <div className="resume">
+        <div className="resume" id="resume">
         <div className="education">
         <h1>Education</h1>
         <h2>Studied at</h2>
         <div className="codingSkills">
             <Row>
+            
                 <Col className="review">
+                
                 <h3>Web Designing Course</h3>
+                
                 <h4>Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</h4>
                 </Col>
                 <Col className="review">
@@ -37,6 +42,7 @@ function Resume() {
                 <Col className="review">
                 <h3>JavaScript</h3>
                 <h4>Etiam sit amet orci eget eros faucibus tincidunt.</h4>
+
                 <div color="danger" className="text-center">75%</div>
       <Progress value={75} />
       </Col>
@@ -51,7 +57,7 @@ function Resume() {
                 <h4>Etiam sit amet orci eget eros faucibus tincidunt.</h4>
                 <div color="danger" className="text-center">75%</div>
       <Progress value={75} />
-    
+
                 </Col>
             </Row>
         </div>
@@ -106,6 +112,5 @@ function Resume() {
         </div>
         </>
     )
-}
-
-export default Resume;
+    }
+    export default Resume
